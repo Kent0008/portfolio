@@ -1,0 +1,101 @@
+p .card-text {
+    color: rgba(red, rgb(22, 240, 149), rgb(104, 213, 227), 0.167);
+    columns: auto;
+}
+.navbar-brand:hover {
+    font-size: 25px;
+    color: red;
+}
+
+body {
+    background-image: url(https://images.unsplash.com/photo-1522252234503-e356532cafd5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1325&q=80);
+}
+
+.nav-link:hover {
+    font-size: 25px;
+    color: red;
+}
+
+.nav-link {
+    font-size: 20px;
+    color: #000;
+}
+.nav-link:hover {
+    font-size: 25px;
+    color: red;
+}
+
+.card {
+    width: 40rem;
+    color: aqua;
+    display: flex;
+    justify-content: center;
+}
+.card-body {
+    background-color: rgb(149, 0, 255);
+
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    fill: red;
+}
+
+.nurislam-borders-ss {
+    border: 2px solid #000;
+    width: 60%;
+    height: 60%;
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 5px rgba(0, 0, 0, 0.374);
+    color: purple;
+    background-color:rgb(22, 240, 149);
+}
+.border-border-ss {
+    display: flex;
+    justify-content: center;
+}
+
+.card {
+    border: 2px solid #ccc; /* толщина, тип и цвет границы */
+    box-shadow: 5px 5px 5px 5px rgba(0, 0, 0, 0.7); /* тень */
+
+}
+
+
+/* Создаем анимацию появления элемента */
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.border-border-ss {
+    opacity: 0;
+    transform: translateY(20px);
+    transition: opacity 1s ease-out, transform 1s ease-out;
+}
+
+.border-border-ss:hover {
+    opacity: 1;
+    transform: translateY(0);
+    animation: fadeInUp 0.5s ease-out;
+}
+
+.border-border-ss {
+    opacity: 0;
+    transform: none;
+    animation:none
+}
+
+
+.nurislam2008_nuris {
+    border: 2px solid #000;
+    display: flex;
+    justify-content: end;
+}
